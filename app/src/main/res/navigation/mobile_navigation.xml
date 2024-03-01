@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/prepareScreenFragment">
+
+    <fragment
+        android:id="@+id/prepareScreenFragment"
+        android:name="com.cristobal.accenturetrackerexample.ui.fragments.PrepareScreenFragment"
+        tools:layout="@layout/fragment_prepare_screen">
+        <action
+            android:id="@+id/action_prepareScreenFragment_to_supervisorFragment"
+            app:destination="@id/supervisorFragment"
+            app:popUpTo="@id/supervisorFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_prepareScreenFragment_to_driverFragment"
+            app:destination="@id/driverFragment"
+            app:popUpTo="@id/supervisorFragment"
+            app:popUpToInclusive="true"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/supervisorFragment"
+        android:name="com.cristobal.accenturetrackerexample.ui.fragments.SupervisorFragment"
+        tools:layout="@layout/fragment_supervisor" />
+
+    <fragment
+        android:id="@+id/driverFragment"
+        android:name="com.cristobal.accenturetrackerexample.ui.fragments.DriverFragment"
+        tools:layout="@layout/fragment_driver" />
+</navigation>

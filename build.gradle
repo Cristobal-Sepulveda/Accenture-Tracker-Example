@@ -1,0 +1,31 @@
+buildscript {
+    ext {
+        core = [:]
+        core.appId = "com.cristobal"
+        core.minSdk = 28
+        core.targetSdk = 34
+        core.androidGradlePluginVersion = '7.4.0'
+        core.kotlinVersion = "1.9.0"
+        core.googleServices = "4.4.1"
+        core.firebaseCrashlytics = "2.9.9"
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:${core.androidGradlePluginVersion}"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0"
+        classpath "com.google.gms:google-services:${core.googleServices}"
+        classpath "com.google.firebase:firebase-crashlytics-gradle:${core.firebaseCrashlytics}"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Tracker</string>
+    <string name="button_login">Iniciar sesión</string>
+    <string name="authentication_activity_title">Tracker Example</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="bottom_navigation_home">Tracker</string>
+    <string name="bottom_navigation_map">Mapa</string>
+    <string name="bottom_navigation_person">Perfil</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="start_transmition">Iniciar transmisión</string>
+    <string name="permission_denied_explanation">Para usar la app debes aceptar los permisos de localización. En el caso que tu versión de android sea 33 o mayor, también deberas aceptar el permiso de notificación.</string>
+    <string name="settings">Settings</string>
+    <string name="tracker_enabled">El tracker ha sido activado.</string>
+    <string name="tracker_stopped">Tracker detenido.</string>
+    <string name="tracker_started">Tracker iniciado.</string>
+    <string name="can_not_get_location">No se pudo obtener la ubicación actual.</string>
+    <string name="fine_location_request_message">Tracker Example necesita el permiso de localización para poder ubicarte en el mapa.</string>
+    <string name="notification_request_message">Tracker Example necesita el permiso de notificación para poder avisarte que el trackeo ha sido inicializado o detenido.</string>
+    <string name="wrong_user_or_password">Usuario y/o contraseña incorrectos.</string>
+    <string name="error_checking_logged_status">Ha ocurrido un error al iniciar tu sesión.</string>
+    <string name="marker_title">Conductor: %$1s\nVelocidad: %$2s</string>
+    <string name="profiletype_text">Profile: %1$s</string>
+    <string name="user_text">User: %1$s</string>
+    <string name="error">Error</string>
+    <string name="toolbar_title">User: %1$s Profile: %2$s</string>
+    <string name="fine_location_request_title">Permiso de Ubicación</string>
+    <string name="accept">Aceptar</string>
+    <string name="notification_request_title">Permiso de notificación</string>
+    <string name="atention">Atención</string>
+    <string name="turn_on_your_device_gps">Para poder usar la aplicación debes tener tu gps encendido.</string>
+    <string name="gps_turn_off_in_private_site">Recuerda que no puedes apagar el gps luego de iniciar sesión. Tu sesión será finalizada.</string>
+</resources>
